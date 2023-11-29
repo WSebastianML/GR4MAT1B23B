@@ -1,0 +1,2 @@
+{"id":971,"nombre":"erick","direccion":"Carcelen","correo":"erick.cabezas@epn.edu.ec","telefono":"0998729903"}
+{"id":824,"nombre":"rabit","direccion":"Carcelen","correo":"erick.cabezas@epn.edu.ec","telefono":"0998729903"}

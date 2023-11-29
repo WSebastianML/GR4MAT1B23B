@@ -1,10 +1,8 @@
 package ec.edu.epn.gr4mat1b23b;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 import java.io.*;
-import java.lang.reflect.Type;
 import java.util.*;
 
 public class Gestor_Usuario {

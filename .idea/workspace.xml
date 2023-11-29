@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="erick Cabezas primer commit">
-      <change afterPath="$PROJECT_DIR$/src/main/Datos/ids.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Datos/usuarios.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/Gestor_UsuarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="commit clases usuario y gestor_usuario">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/Gestor_UsuarioParametersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Gestor_Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Gestor_Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701271608751</updated>
       <workItem from="1701271613538" duration="5105000" />
-      <workItem from="1701276788460" duration="736000" />
+      <workItem from="1701276788460" duration="1406000" />
     </task>
     <task id="LOCAL-00001" summary="erick Cabezas primer commit">
       <option name="closed" value="true" />
@@ -159,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701272069903</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit clases usuario y gestor_usuario">
+      <option name="closed" value="true" />
+      <created>1701277578120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701277578120</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +172,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="erick Cabezas primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="erick Cabezas primer commit" />
+    <MESSAGE value="commit clases usuario y gestor_usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit clases usuario y gestor_usuario" />
   </component>
 </project>

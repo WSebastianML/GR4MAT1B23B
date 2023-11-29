@@ -9,19 +9,17 @@ public class Prestamo {
 
     private GestorLibro gestorLibro;
 
+    private String historial;
+
     public Prestamo(Usuario usuario) {
         this.librosPrestados = new ArrayList<>();
         this.usuario = usuario;
+        this.historial = "";
     }
 
-    public List<Libro> obtenerLibrosPrestados(){
-        List<Libro> librosPrestados = new ArrayList<>();
-        for(Libro libro : gestorLibro.obtenerLibrosDisponibles()){
-            if(libro.prestar().getEstado() == Estado.PRESTADO ){
-                librosPrestados.add(libro);
-            }
-        }
-        return librosPrestados;
+    public void actualizarHistorial(){
+        List<Libro> librosPrestados = gestorLibro.getListaLibrosPrestados();
+        this.historial += gestorLibro.imprimirLista(librosPrestados);
     }
 
 }

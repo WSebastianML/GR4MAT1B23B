@@ -1,8 +1,5 @@
 package ec.edu.epn.gr4mat1b23b;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Usuario {
     private GestorLibro gestorLibro = new GestorLibro();
     private int id;
@@ -38,7 +35,8 @@ public class Usuario {
 
     //TODO: VER COMO MANDAMOS LA LISTA DE LIBROS DISPONIBLES
     private String mostrarDisponibilidadDeLibros() {
-        if (gestorLibro.obtenerLibrosDisponibles() == null) {
+        gestorLibro.obtenerListaLibros();
+        if (gestorLibro.getListaLibrosDisponibles() == null) {
             return "No existen libros disponibles, inténtelo más tarde";
         } else {
             return "Los libros disponibles son:";

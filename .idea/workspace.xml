@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="commit clases usuario y gestor_usuario">
       <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Prestamo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Libro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Usuario.java" afterDir="false" />
+=======
+    <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="test de gestor usuario y test parameter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/Gestor_UsuarioParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/Gestor_UsuarioParametersTest.java" afterDir="false" />
+>>>>>>> 3b9c31df7468760e797f02b992d41f11b665d331
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,22 @@
       <recent name="ec.edu.epn.gr4mat1b23b" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Gestor_UsuarioTest">
+  <component name="RunManager" selected="JUnit.Gestor_UsuarioParametersTest">
+    <configuration name="Gestor_UsuarioParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GR4MAT1B23B" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.gr4mat1b23b.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.gr4mat1b23b" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.gr4mat1b23b.Gestor_UsuarioParametersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Gestor_UsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GR4MAT1B23B" />
       <extension name="coverage">
@@ -132,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Gestor_UsuarioParametersTest" />
         <item itemvalue="JUnit.Gestor_UsuarioTest" />
         <item itemvalue="JUnit.Gestor_UsuarioTest.given_Usuario_when_agregarUsuario_then_ok" />
         <item itemvalue="JUnit.Gestor_UsuarioTest.given_Usuario_when_agregarUsuario_OK" />
@@ -147,7 +169,8 @@
       <option name="presentableId" value="Default" />
       <updated>1701271608751</updated>
       <workItem from="1701271613538" duration="5105000" />
-      <workItem from="1701276788460" duration="1406000" />
+      <workItem from="1701276788460" duration="1570000" />
+      <workItem from="1701278848579" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="erick Cabezas primer commit">
       <option name="closed" value="true" />
@@ -173,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701277578120</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test de gestor usuario y test parameter">
+      <option name="closed" value="true" />
+      <created>1701278249443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701278249443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="erick Cabezas primer commit" />
     <MESSAGE value="commit clases usuario y gestor_usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit clases usuario y gestor_usuario" />
+    <MESSAGE value="test de gestor usuario y test parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="test de gestor usuario y test parameter" />
   </component>
 </project>

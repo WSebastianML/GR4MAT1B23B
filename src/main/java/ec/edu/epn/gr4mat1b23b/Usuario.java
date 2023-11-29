@@ -34,8 +34,6 @@ public class Usuario {
 
     public void solicitarPrestamo() {
         mostrarDisponibilidadDeLibros();
-
-
     }
 
     //TODO: VER COMO MANDAMOS LA LISTA DE LIBROS DISPONIBLES

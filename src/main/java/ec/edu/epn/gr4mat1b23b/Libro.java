@@ -18,4 +18,9 @@ public class Libro {
         return estado;
     }
 
+    public Libro prestar(){
+        this.estado = this.estado.PRESTADO;
+        return this;
+    }
+
 }

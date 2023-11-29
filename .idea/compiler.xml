@@ -9,5 +9,8 @@
         <module name="GR4MAT1B23B" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ec.edu.epn" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

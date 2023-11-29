@@ -25,6 +25,14 @@ public class Libro {
         return this;
     }
 
+    public String getISBN() {
+        return ISBN;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -1,5 +1,7 @@
 package ec.edu.epn.gr4mat1b23b;
 
+import jakarta.servlet.GenericServlet;
+
 public class Usuario {
     private GestorLibro gestorLibro = new GestorLibro();
     private int id;
@@ -42,6 +44,5 @@ public class Usuario {
             return "Los libros disponibles son:";
         }
     }
-
 
 }

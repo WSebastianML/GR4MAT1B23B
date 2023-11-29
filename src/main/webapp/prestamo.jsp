@@ -1,4 +1,6 @@
-<%--
+<%@ page import="ec.edu.epn.gr4mat1b23b.GestorLibro" %>
+<%@ page import="java.util.List" %>
+<%@ page import="ec.edu.epn.gr4mat1b23b.Libro" %><%--
   Created by IntelliJ IDEA.
   User: Christopher
   Date: 29/11/2023
@@ -24,6 +26,37 @@
                                     <td class="content-block">
                                         <h2>Prestamo de Libro</h2>
                                         <h3>Libros disponibles:</h3><br/>
+                                        <%
+                                            GestorLibro gestorLibro = new GestorLibro();
+                                            gestorLibro.obtenerListaLibros();
+                                            List<Libro> lista = gestorLibro.getListaLibrosDisponibles();
+
+                                        %>
+                                        <table>
+                                            <tr>
+                                                <th>ISBN</th>
+                                                <th>Titulo</th>
+                                                <th>Estado</th>
+                                                <th>Opcion</th>
+                                            </tr>
+                                            <%
+                                                for (Libro libro : lista) {
+                                            %>
+                                            <tr>
+                                                <td><%=libro.getISBN()%></td>
+                                                <td><%=libro.getTitulo()%></td>
+                                                <td><%=libro.getEstado()%></td>
+                                                <td>
+                                                <form action="PrestamoServlet" method="GET">
+                                                    <input type="submit" value="Prestar">
+                                                </form>
+                                                </td>
+                                            </tr>
+                                            <%
+                                                }
+                                            %>
+
+                                        </table>
                                         <form action="reciboPrestamo.jsp" method = "POST">
                                             <select style=" padding: 10px; padding-right: 126px; " name="libro" multiple required>
                                                 <option value ="libro1">Titulo Libro1</option>

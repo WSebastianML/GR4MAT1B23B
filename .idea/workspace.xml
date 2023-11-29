@@ -9,17 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="commit clases usuario y gestor_usuario">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/PrestamoTest.java" afterDir="false" />
+    <list default="true" id="c5e9e9a9-40c7-4a36-b39c-a5e9b58ffd9f" name="Changes" comment="Jsp de prestamo, reciboPrestamo y css terminada, (sin interactividad con otras clases)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/InventarioServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Css/estiloLogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Css/estiloPanelPrincipal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/panelPrincipal.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/GestorLibro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/GestorLibro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Prestamo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/prestamo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/prestamo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/prestamo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/prestamo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/GestorLibro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/GestorLibro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Libro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Usuario.class" afterDir="false" />
     </list>
@@ -59,32 +65,15 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: -1
-}</component>
   <component name="ProjectId" id="2Yr6xaOiRyj9r6n2PsF7F1Qeloq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -96,7 +85,7 @@
       <recent name="ec.edu.epn.gr4mat1b23b" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrestamoTest.obtenerLibrosPrestados">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.82">
     <configuration name="Gestor_UsuarioParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GR4MAT1B23B" />
       <extension name="coverage">
@@ -176,6 +165,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.82" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/GR4MAT1B23B_war_exploded/login.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="GR4MAT1B23B:war exploded">
@@ -329,6 +319,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="erick Cabezas primer commit" />

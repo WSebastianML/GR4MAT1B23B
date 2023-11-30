@@ -9,12 +9,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="stylesRegistro.css actualizado">
+    <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="Commit final">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/RegistroServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/Css/stylesRegistro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/classes/ec/edu/epn/gr4mat1b23b/Biblioteca.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/classes/ec/edu/epn/gr4mat1b23b/Factura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/classes/ec/edu/epn/gr4mat1b23b/Gestor_Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/classes/ec/edu/epn/gr4mat1b23b/Libro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/classes/ec/edu/epn/gr4mat1b23b/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/classes/servlets/GestorLibroServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/WEB-INF/classes/servlets/PrestamoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/registro.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Css/stylesRegistro.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Css/stylesRegistro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/panelPrincipal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/panelPrincipal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/prestamo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/prestamo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/panelPrincipal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/panelPrincipal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/prestamo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/GR4MAT1B23B-1.0-SNAPSHOT/prestamo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Biblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Biblioteca.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +49,7 @@
         <option value="HTTP Request" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -63,6 +80,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/Css" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -73,6 +94,9 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ec.edu.epn.gr4mat1b23b" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="servlets" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.82">
@@ -153,6 +177,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.82" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/GR4MAT1B23B_war_exploded/panelPrincipal.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="GR4MAT1B23B:war exploded">
@@ -270,7 +295,8 @@
       <workItem from="1701278848579" duration="769000" />
       <workItem from="1701304324729" duration="5472000" />
       <workItem from="1701311143239" duration="329000" />
-      <workItem from="1701312149415" duration="373000" />
+      <workItem from="1701312149415" duration="1502000" />
+      <workItem from="1701313885476" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="erick Cabezas primer commit">
       <option name="closed" value="true" />
@@ -319,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701312249511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="direccionamiento jsps">
+      <created>1701312556638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701312556638</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +376,11 @@
     <MESSAGE value="test de gestor usuario y test parameter" />
     <MESSAGE value="PrestamoTest agregado y modificacion en funcion prestamo" />
     <MESSAGE value="stylesRegistro.css actualizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="stylesRegistro.css actualizado" />
+    <MESSAGE value="direccionamiento jsps" />
+    <MESSAGE value="Commit final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit final" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GR4MAT1B23B$Tomcat_9_0_82.ic" NAME="Tomcat 9.0.82 Coverage Results" MODIFIED="1701314172692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

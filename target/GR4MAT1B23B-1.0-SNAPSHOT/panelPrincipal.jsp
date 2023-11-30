@@ -13,7 +13,7 @@
 </head>
 <body>
 <nav>
-    <a href="#">Registrar usuario</a>
+    <a href="/GR4MAT1B23B_war_exploded/registro.jsp">Registrar usuario</a>
     <a href="/GR4MAT1B23B_war_exploded/prestamo.jsp">Nuevo Prestamo</a>
     <a href="/GR4MAT1B23B_war_exploded/login.jsp">Salir</a>
     <div id="indicator"></div>

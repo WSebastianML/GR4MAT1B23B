@@ -94,7 +94,7 @@ public class Biblioteca {
         return this.libros.add(libroAdd);
     }
 
-    public ArrayList<Libro> LibrosDisponobles() {
+    public ArrayList<Libro> LibrosDisponibles() {
         for (Libro libro : libros) {
             if (libro.getEstado().equals("disponible")) {
                 this.librosDisponobles.add(libro);

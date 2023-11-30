@@ -28,9 +28,8 @@
                                         <h3>Libros disponibles:</h3><br/>
                                         <%
                                             Biblioteca gestorLibro = new Biblioteca();
-                                            gestorLibro.obtenerListaLibros();
-                                            List<Libro> lista = gestorLibro.getListaLibrosDisponibles();
-
+                                            gestorLibro.obtenerLibros();
+                                            List<Libro> lista = gestorLibro.LibrosDisponibles();
                                         %>
                                         <table>
                                             <tr>

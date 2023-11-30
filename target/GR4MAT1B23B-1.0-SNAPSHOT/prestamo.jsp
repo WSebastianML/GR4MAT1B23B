@@ -1,4 +1,4 @@
-<%@ page import="ec.edu.epn.gr4mat1b23b.GestorLibro" %>
+<%@ page import="ec.edu.epn.gr4mat1b23b.Biblioteca" %>
 <%@ page import="java.util.List" %>
 <%@ page import="ec.edu.epn.gr4mat1b23b.Libro" %><%--
   Created by IntelliJ IDEA.
@@ -27,10 +27,9 @@
                                         <h2>Prestamo de Libro</h2>
                                         <h3>Libros disponibles:</h3><br/>
                                         <%
-                                            GestorLibro gestorLibro = new GestorLibro();
-                                            gestorLibro.obtenerListaLibros();
-                                            List<Libro> lista = gestorLibro.getListaLibrosDisponibles();
-
+                                            Biblioteca gestorLibro = new Biblioteca();
+                                            gestorLibro.obtenerLibros();
+                                            List<Libro> lista = gestorLibro.LibrosDisponibles();
                                         %>
                                         <table>
                                             <tr>
@@ -47,7 +46,7 @@
                                                 <td><%=libro.getTitulo()%></td>
                                                 <td><%=libro.getEstado()%></td>
                                                 <td>
-                                                <form action="PrestamoServlet.java" method="GET">
+                                                <form action="PrestamoServlet" method="GET">
                                                     <input type="submit" value="Prestar">
                                                 </form>
                                                 </td>
@@ -70,7 +69,7 @@
                                 </tr>
                                 <tr>
                                     <td class="content-block">
-                                        <a href="#">Volver</a>
+                                        <a href="/GR4MAT1B23B_war_exploded/panelPrincipal.jsp">Volver</a>
                                     </td>
                                 </tr>
                                 <tr>

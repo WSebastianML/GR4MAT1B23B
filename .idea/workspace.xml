@@ -9,10 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="PrestamoTest agregado y modificacion en funcion prestamo">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Css/stylesRegistro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registro.jsp" afterDir="false" />
+    <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="stylesRegistro.css actualizado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Css/stylesRegistro.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Css/stylesRegistro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/panelPrincipal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/panelPrincipal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/prestamo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/prestamo.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <recent name="ec.edu.epn.gr4mat1b23b" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BibliotecaTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.82">
     <configuration name="BibliotecaParameterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GR4MAT1B23B" />
       <extension name="coverage">
@@ -268,6 +270,7 @@
       <workItem from="1701278848579" duration="769000" />
       <workItem from="1701304324729" duration="5472000" />
       <workItem from="1701311143239" duration="329000" />
+      <workItem from="1701312149415" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="erick Cabezas primer commit">
       <option name="closed" value="true" />
@@ -309,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701294468749</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="stylesRegistro.css actualizado">
+      <created>1701312249511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701312249511</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,12 +335,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="erick Cabezas primer commit" />
     <MESSAGE value="commit clases usuario y gestor_usuario" />
     <MESSAGE value="test de gestor usuario y test parameter" />
     <MESSAGE value="PrestamoTest agregado y modificacion en funcion prestamo" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrestamoTest agregado y modificacion en funcion prestamo" />
+    <MESSAGE value="stylesRegistro.css actualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="stylesRegistro.css actualizado" />
   </component>
 </project>

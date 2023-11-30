@@ -70,7 +70,7 @@
                                 </tr>
                                 <tr>
                                     <td class="content-block">
-                                        <a href="#">Volver</a>
+                                        <a href="/GR4MAT1B23B_war_exploded/panelPrincipal.jsp">Volver</a>
                                     </td>
                                 </tr>
                                 <tr>

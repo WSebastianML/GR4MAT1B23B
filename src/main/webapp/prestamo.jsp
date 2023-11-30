@@ -1,4 +1,4 @@
-<%@ page import="ec.edu.epn.gr4mat1b23b.GestorLibro" %>
+<%@ page import="ec.edu.epn.gr4mat1b23b.Biblioteca" %>
 <%@ page import="java.util.List" %>
 <%@ page import="ec.edu.epn.gr4mat1b23b.Libro" %><%--
   Created by IntelliJ IDEA.
@@ -27,7 +27,7 @@
                                         <h2>Prestamo de Libro</h2>
                                         <h3>Libros disponibles:</h3><br/>
                                         <%
-                                            GestorLibro gestorLibro = new GestorLibro();
+                                            Biblioteca gestorLibro = new Biblioteca();
                                             gestorLibro.obtenerListaLibros();
                                             List<Libro> lista = gestorLibro.getListaLibrosDisponibles();
 

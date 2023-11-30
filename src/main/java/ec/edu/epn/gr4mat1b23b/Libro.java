@@ -6,23 +6,26 @@ public class Libro {
 
     private String ISBN;
     private String titulo;
-    private Estado estado;
+    // el estado solo puede ser: prestado o disponible
+    private String estado;
 
 
-    public Libro(String ISBN, String titulo, Estado estado) {
+    public Libro(String ISBN, String titulo) {
         this.ISBN = ISBN;
         this.titulo = titulo;
-        this.estado = estado;
+        this.estado="disponible";
     }
 
 
-    public Estado getEstado() {
+    public String getEstado() {
         return estado;
     }
 
-    public Libro prestar(){
-        this.estado = Estado.PRESTADO;
-        return this;
+    public void setEstado(String estado) {
+        if(estado.equalsIgnoreCase("prestado")
+                ||estado.equalsIgnoreCase("disponible")){
+            this.estado = estado;
+        }
     }
 
     public String getISBN() {
@@ -33,25 +36,4 @@ public class Libro {
         return titulo;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Libro libro = (Libro) o;
-        return Objects.equals(ISBN, libro.ISBN) && estado == libro.estado;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(ISBN, estado);
-    }
-
-    @Override
-    public String toString() {
-        return "Libro{" +
-                "ISBN='" + ISBN + '\'' +
-                ", titulo='" + titulo + '\'' +
-                ", estado=" + estado +
-                '}';
-    }
 }

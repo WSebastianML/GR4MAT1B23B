@@ -3,7 +3,6 @@ package ec.edu.epn.gr4mat1b23b;
 import jakarta.servlet.GenericServlet;
 
 public class Usuario {
-    private GestorLibro gestorLibro = new GestorLibro();
     private int id;
     private String nombre;
     private String direccion;
@@ -26,23 +25,7 @@ public class Usuario {
         return nombre;
     }
 
-    public String getTelefono() {
-        return telefono;
+    public int getId() {
+        return id;
     }
-
-
-    public void solicitarPrestamo() {
-        mostrarDisponibilidadDeLibros();
-    }
-
-    //TODO: VER COMO MANDAMOS LA LISTA DE LIBROS DISPONIBLES
-    private String mostrarDisponibilidadDeLibros() {
-        gestorLibro.obtenerListaLibros();
-        if (gestorLibro.getListaLibrosDisponibles() == null) {
-            return "No existen libros disponibles, inténtelo más tarde";
-        } else {
-            return "Los libros disponibles son:";
-        }
-    }
-
 }

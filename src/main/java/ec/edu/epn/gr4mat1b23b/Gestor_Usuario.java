@@ -11,8 +11,11 @@ public class Gestor_Usuario {
     private ArrayList<Usuario> usuarios;
     private  Gson gson;
 
+    private Usuario usuariotem;
+
 
     public Gestor_Usuario() {
+        usuariotem=new Usuario(000,"","","","");
         gson = new Gson();
         usuarios = new ArrayList<>();
         rand = new Random();
@@ -77,8 +80,25 @@ public class Gestor_Usuario {
     public boolean agregarUsuario(String nombre, String direccion, String correo, String telefono) {
         int id = generarIdUnico();
         Usuario usuarioAdd=new Usuario(id,nombre,direccion,correo,telefono);
+        this.usuariotem=usuarioAdd;
         escribirUsuario(usuarioAdd);
         return this.usuarios.add(usuarioAdd);
     }
 
+    public Usuario buscarUsuario(int id){
+        for (Usuario usuario : usuarios) {
+            if (usuario.getId()==id) {
+                return usuario;
+            }
+        }
+        return null;
+    }
+
+    public Usuario getUsuariotem() {
+        return usuariotem;
+    }
+
+    public ArrayList<Usuario> getUsuarios() {
+        return usuarios;
+    }
 }

@@ -1,0 +1,1 @@
+Factura num:1| cliente:erick| libros prestados:2

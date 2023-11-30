@@ -1,0 +1,3 @@
+{"ISBN":"0198526636","titulo":"El murcielago","estado":"prestado"}
+{"ISBN":"0198524436","titulo":"Carcelen muerta","estado":"disponible"}
+{"ISBN":"0198525536","titulo":"Caprichosa","estado":"prestado"}

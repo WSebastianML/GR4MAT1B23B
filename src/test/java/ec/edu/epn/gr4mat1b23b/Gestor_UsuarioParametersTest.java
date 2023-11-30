@@ -18,7 +18,7 @@ public class Gestor_UsuarioParametersTest {
     public static Iterable<Object[]> parameters() {
         List<Object[]> objects = new ArrayList<Object[]>();
         objects.add(new Object[]{new String[]{"Rabit","Carcelen","erick.cabezas@epn.edu.ec","0998729903"}});
-        objects.add(new Object[]{new String[]{"Erick","Carcelen","erick.cabezas@epn.edu.ec","0998729903"}});
+        objects.add(new Object[]{new String[]{"erick","Carcelen","erick.cabezas@epn.edu.ec","0998729903"}});
         objects.add(new Object[]{new String[]{"monica","Carcelen","erick.cabezas@epn.edu.ec","0998729903"}});
         return objects;
     }

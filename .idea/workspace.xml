@@ -10,30 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e152df93-3c2a-4d6f-845b-a5136751ee8b" name="Changes" comment="PrestamoTest agregado y modificacion en funcion prestamo">
-      <change afterPath="$PROJECT_DIR$/src/main/Datos/libros.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Datos/transacciones.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/BibliotecaParameterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/BibliotecaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Datos/ids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Datos/ids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Datos/usuarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Datos/usuarios.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Estado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/GestorLibro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Gestor_Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Gestor_Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Factura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/gr4mat1b23b/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/prestamo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/prestamo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/Gestor_UsuarioParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/Gestor_UsuarioParametersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/PrestamoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/gr4mat1b23b/UsuarioTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Estado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/GestorLibro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Gestor_Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Gestor_Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Libro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/gr4mat1b23b/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/gr4mat1b23b/UsuarioTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Css/stylesRegistro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registro.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,33 +51,17 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: -1
-}</component>
   <component name="ProjectId" id="2Yr6xaOiRyj9r6n2PsF7F1Qeloq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wseba/IdeaProjects/Tarea3-Gr4_MAgiles&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/Css" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -304,6 +267,7 @@
       <workItem from="1701276788460" duration="1570000" />
       <workItem from="1701278848579" duration="769000" />
       <workItem from="1701304324729" duration="5472000" />
+      <workItem from="1701311143239" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="erick Cabezas primer commit">
       <option name="closed" value="true" />
@@ -350,6 +314,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="erick Cabezas primer commit" />
